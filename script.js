@@ -1,3 +1,6 @@
 function js_style(){
-    document.getElementById('text').style.color = "red";
+    var element = document.getElementById('text');
+    element.style = 'font-size: 40px; color: red; font-family: Arial';
 }
+
+function 
